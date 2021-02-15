@@ -1,0 +1,57 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%
+    background: #F1F1F1 ;
+}
+
+canvas{
+   	border:  2px solid black;
+   	position: relative;
+   	left: 220px;
+   	top:55px;
+   	box-shadow: 5px 5px gray;
+   }
+
+#simple_paint{
+	color: black;
+	font-size:200%;
+	font-family: arial;
+	position: relative;
+	top: 45px;
+	left: 550px;
+}
+
+#cntrl{
+    padding: 1.5px 1.5px 1.5px 1.5px;
+	position : relative;
+    top:50px;
+    left : 220px;		
+}
+#foot{
+        position: relative;
+		float: left;
+	}
+
+#clear{
+    height: 23px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    width: 70px;
+    float: right;
+	position:relative;
+	top : 5px;
+	right: -830px;
+	box-shadow: 5px 5px gray;
+}
+
+ #clear:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,2,.01);
+}
+
